@@ -1,0 +1,24 @@
+{
+    "PORT": "3000",
+    "LOG_LEVEL": "info",
+    "DB_HOST": "192.168.2.14",
+    "DB_NAME": "license-manager",
+    "DB_USERNAME": "expertflow",
+    "DB_PASSWORD": "Expertflow123",
+    "DB_CONNECTION_LIMIT": 10,
+    "DB_MULTIPLE_STATEMENTS": true,
+    "JWT_SECRET": "94C3AFF3C97E70E644094C1181E8670A",
+    "IMAGE_STORAGE_PATH": "/usr/share/nginx/html/images",
+    "FILE_SERVER_URL": "https://resourcevault.expertflow.com/images/",
+    "WEBHOOK_URL": "https://chat.googleapis.com/v1/spaces/AAAAk9hYwn4/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=c_DArxbyU1MOxMzzm1P2u0zvdYZy3tw6dzgZWg_ANBo",
+    "ALLOWED_ORIGINS": [
+        "http://192.168.2.14",
+        "http://192.168.2.14:80",
+        "http://192.168.2.14:4200",
+        "http://192.168.2.14:4300",
+        "http://192.168.2.14:8080",
+        "http://192.168.2.14:6001",
+        "http://localhost:4300",
+        "https://resourcevault.expertflow.com"
+    ]
+}
